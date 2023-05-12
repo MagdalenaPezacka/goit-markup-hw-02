@@ -6,15 +6,14 @@
   --light-grey: #757575;
   --dark-grey: #2f303a;
   --almost-white: #f5f4fa;
+  --middle-grey: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   font-style: normal;
   color: var(--almost-black);
 }
-ul {
-  list-style-type: none;
-}
+
 /*header*/
 .mainpagefont {
   font-family: "Raleway";
@@ -30,6 +29,9 @@ ul {
 .link {
   text-decoration: none;
 }
+.site-nav {
+  list-style-type: none;
+}
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
@@ -43,18 +45,14 @@ ul {
 }
 .email-link {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-
   color: var(--brand-color);
 }
 .phonenumber {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-
   color: var(--light-grey);
 }
 .email-link:hover,
@@ -102,6 +100,10 @@ ul {
   width: 270px;
   height: 368px;
 }
+.no-points {
+  list-style-type: none;
+}
+
 .article-title {
   font-weight: 700;
   font-size: 14px;
@@ -110,7 +112,6 @@ ul {
   color: var(--almost-black);
 }
 .article-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -121,18 +122,16 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
   color: var(--almost-black);
 }
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-
   color: var(--almost-black);
 }
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   color: var(--light-grey);
@@ -172,7 +171,6 @@ ul {
   color: var(--almost-black);
 }
 .portfolio-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--light-grey);
@@ -195,26 +193,22 @@ footer {
 }
 .company-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--total-white);
 }
 .footer-email-link {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--middle-grey);
 }
 .footer-phonenumber {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--light-grey);
+  color: var(--middle-grey);
 }
 .footer-email-link:hover,
 .footer-email-link:focus,
