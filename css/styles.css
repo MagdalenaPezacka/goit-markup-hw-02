@@ -149,6 +149,12 @@ body {
   font-size: 16px;
   line-height: 1.62;
 }
+.portfolio-main-button:hover,
+.portfolio-main-button:focus,
+.portfolio-main-button:active {
+  color: var(--brand-color);
+  background-color: var(--total-white);
+}
 .portfolio-button {
   background-color: var(--almost-white);
   border: var(--brand-color);
@@ -158,6 +164,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+}
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+  color: var(--brand-color);
 }
 .all-projects .project {
   background-color: var(--total-white);
